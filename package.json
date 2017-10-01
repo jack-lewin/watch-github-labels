@@ -1,0 +1,30 @@
+{
+  "name": "watch-github-labels",
+  "version": "0.1.0",
+  "description": "Watch GitHub repos for new isuses with specific labels",
+  "main": "index.js",
+  "dependencies": {
+    "github": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jack-lewin/watch-github-labels"
+  },
+  "keywords": [
+    "watch",
+    "github",
+    "labels",
+    "ifttt"
+  ],
+  "author": "Jack Lewin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jack-lewin/watch-github-labels/issues"
+  },
+  "homepage": "https://github.com/jack-lewin/watch-github-labels#readme"
+}

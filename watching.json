@@ -1,0 +1,17 @@
+[
+  {
+    "owner": "facebook",
+    "repo": "react",
+    "labels": [
+      "Difficulty: beginner",
+      "Type: Bug"
+    ]
+  },
+  {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "labels": [
+      "beginner"
+    ]
+  }
+]
