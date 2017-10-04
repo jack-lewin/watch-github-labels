@@ -21,12 +21,11 @@ exports.connect = function (formattedTime) {
   })
 
   // authenticate with the GitHub API, if possible
-  if (process.env.GITHUB_OAUTH !== undefined) {
+  if (typeof process.env.GITHUB_OAUTH !== 'undefined') {
     github.authenticate({
       type: 'oauth',
       token: process.env.GITHUB_OAUTH
     })
-    github.authenticated = true
   } else {
     console.warn(`Please create a GitHub OAuth token at https://github.com/settings/tokens,
     .. and store it as an environment variable: GITHUB_OAUTH.
