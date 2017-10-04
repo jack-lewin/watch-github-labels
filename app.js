@@ -21,7 +21,7 @@ exports.connect = function (formattedTime) {
   })
 
   // authenticate with the GitHub API, if possible
-  if (process.env.GITHUB_OAUTH) {
+  if (typeof process.env.GITHUB_OAUTH !== 'undefined') {
     github.authenticate({
       type: 'oauth',
       token: process.env.GITHUB_OAUTH
